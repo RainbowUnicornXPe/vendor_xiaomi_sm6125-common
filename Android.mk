@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019-2020 The XPerience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,4 +17,5 @@
 LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter ginkgo willow,$(TARGET_DEVICE)),)
+
 endif
